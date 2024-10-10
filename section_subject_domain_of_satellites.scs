@@ -1,0 +1,131 @@
+section_subject_domain_of_satellites
+=> nrel_main_idtf:
+    [Раздел. Предметная область спутников]
+    (* <- lang_ru;; *);
+        [Section. Subject domain of satellites] 
+    (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_satellites = [* 
+subject_domain_of_satellites
+<- sc_node_struct;
+	=> nrel_main_idtf:
+   [Предметная область спутников]
+   (* <- lang_ru;; *);
+   [Subject domain of satellites]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+        concept_the_galaxy;
+    
+    -> rrel_not_maximum_studied_object_class:
+        concept_satellites;
+
+    -> rrel_explored_relation:
+    nrel_natural_satellites;
+    nrel_unnatural_satellites;
+    nrel_height_of_the_orbit;
+    nrel_inclination_of_the_orbit;
+    nrel_shape_of_the_orbit;
+    nrel_size;
+    nrel_life_cycle;
+    nrel_energy_source;
+    nrel_gravity;
+    nrel_speed;
+    nrel_weight;
+    nrel_radius;
+    nrel_period_of_treatment;
+    nrel_eccentricity_of_the_orbit;
+    nrel_apogee;
+    nrel_perigee;
+    nrel_observer_satellites;
+    nrel_relay_satellites;
+    nrel_navigation_satellites;
+    nrel_meteorological_satellites;
+    nrel_provides;
+*];;
+
+section_subject_domain_of_satellites
+-> rrel_key_sc_element:
+    subject_domain_of_satellites;
+    concept_satellite;
+    concept_moon;
+    concept_phobos;
+    concept_deimos;
+    concept_io;
+    concept_europe;
+    concept_ganymede;
+    concept_callisto;
+    concept_typhoid;
+    concept_dione;
+    concept_rhea;
+    concept_titanium;
+    concept_myriad;
+    concept_arielle;
+    concept_umbriel;
+    concept_titania;
+    concept_oberon;
+    concept_triton;
+    concept_charon;
+    concept_styx;
+    concept_nyx;
+    concept_cerberus;
+    concept_hydra;
+
+    concept_earth;
+    concept_mars;
+    concept_jupiter;
+    concept_saturn;
+    concept_uranium;
+    concept_neptune;
+    concept_pluto;
+
+    concept_iradium;
+    concept_globalstar;
+    concept_inmarstar;
+    concept_landsat;
+    concept_sentinel;
+    concept_modis;
+    concept_goes;
+    concept_trmm;
+    concept_meteosat;
+    concept_nasa_aqua;
+    concept_terra;
+    concept_gps;
+    concept_galileo;
+    concept_glonass;
+
+    concept_satellite_camunications;
+    concept_satellite_tv;
+    concept_satellite_navigation;
+    concept_satellite_internet;
+    concept_satellite_meteorology;
+    concept_satellite_geodesy;
+
+    concept_solar_panels;
+    concept_nuclear_energy;
+    concept_batteries;
+    concept_fuel_cells;
+    concept_kinetic_sources;
+
+    nrel_natural_satellites;
+    nrel_unnatural_satellites;
+    nrel_height_of_the_orbit;
+    nrel_inclination_of_the_orbit;
+    nrel_shape_of_the_orbit;
+    nrel_size;
+    nrel_life_cycle;
+    nrel_energy_source;
+    nrel_gravity;
+    nrel_speed;
+    nrel_weight;
+    nrel_radius;
+    nrel_period_of_treatment;
+    nrel_eccentricity_of_the_orbit;
+    nrel_apogee;
+    nrel_perigee;
+    nrel_observer_satellites;
+    nrel_relay_satellites;
+    nrel_navigation_satellites;
+    nrel_meteorological_satellites;
+    nrel_provides;
