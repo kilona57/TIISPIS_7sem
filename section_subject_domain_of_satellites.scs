@@ -45,7 +45,7 @@ section_subject_domain_of_satellites
     subject_domain_of_satellites;
     concept_satellite;
     concept_orbit;
-    concept_planet;
+    concept_planets;
     concept_moon;
     concept_phobos;
     concept_deimos;

@@ -1,0 +1,31 @@
+concept_planets=>nrel_inclusion:
+concept_earth;
+concept_mars;
+concept_jupiter;
+concept_saturn;
+concept_uranium;
+concept_neptune;
+concept_pluto;
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [планеты]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (планеты)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [планеты - небесные тела, движущиеся по орбитам вокруг звезды и имеющие достаточную массу, чтобы их форма была определена силами их внутреннего давления.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;

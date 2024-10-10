@@ -1,0 +1,46 @@
+concept_satellites=>nrel_inclusion:
+concept_moon;
+concept_phobos;
+concept_deimos;
+concept_io;
+concept_europe;
+concept_ganymede;
+concept_callisto;
+concept_typhoid;
+concept_dione;
+concept_rhea;
+concept_titanium;
+concept_myriad;
+concept_arielle;
+concept_umbriel;
+concept_titania;
+concept_oberon;
+concept_triton;
+concept_charon;
+concept_styx;
+concept_nyx;
+concept_cerberus;
+concept_hydra;
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [спутники]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (спутники)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [спутники - небесные тела или неестественные космические объекты, находящиеся в орбите планет.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;
