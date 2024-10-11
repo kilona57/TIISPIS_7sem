@@ -5,7 +5,7 @@ concept_jupiter;
 concept_saturn;
 concept_uranium;
 concept_neptune;
-concept_pluto;;
+concept_pluto
 (*
 <- sc_node_class;;
 <- class;;
