@@ -1,4 +1,4 @@
-moon
+concept_moon
 <- concept_satellite;
 => nrel_main_idtf:
 	   [Луна]
@@ -68,4 +68,4 @@ moon
    (* => nrel_main_idtf:
 	        ["363 300 км"]
 	        (* <- lang_ru;; *);;
-    *);
+    *);;
