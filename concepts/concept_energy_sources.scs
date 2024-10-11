@@ -3,7 +3,7 @@ concept_solar_panels;
 concept_nuclear_energy;
 concept_batteries;
 concept_fuel_cells;
-concept_kinetic_sources;
+concept_kinetic_sources;;
 (*
 <- sc_node_class;;
 <- class;;

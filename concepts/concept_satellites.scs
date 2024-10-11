@@ -20,7 +20,7 @@ concept_charon;
 concept_styx;
 concept_nyx;
 concept_cerberus;
-concept_hydra;
+concept_hydra;;
 (*
 <- sc_node_class;;
 <- class;;

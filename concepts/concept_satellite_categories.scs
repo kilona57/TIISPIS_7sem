@@ -4,7 +4,7 @@ concept_satellite_tv;
 concept_satellite_navigation;
 concept_satellite_internet;
 concept_satellite_meteorology;
-concept_satellite_geodesy;
+concept_satellite_geodesy;;
 (*
 <- sc_node_class;;
 <- class;;

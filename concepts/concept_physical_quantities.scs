@@ -2,7 +2,7 @@ concept_physical_quantities=>nrel_inclusion:
 concept_diameter;
 concept_lenght;
 concept_wight;    
-concept_height;
+concept_height;;
 (*
 <- sc_node_class;;
 <- class;;
