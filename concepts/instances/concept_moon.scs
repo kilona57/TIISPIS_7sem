@@ -9,11 +9,11 @@ moon
 
 => nrel_height_of_the_orbit:
     [382,663 км]
-    (* <- lang_ru;; *);;
+    (* <- lang_ru;; *);
 
 => nrel_inclination_of_the_orbit:
     [5.1 градуса]
-    (* <- lang_ru;; *);;
+    (* <- lang_ru;; *);
 
 => nrel_shape_of_the_orbit:
     concept_elliptical_orbit
@@ -31,19 +31,19 @@ moon
     
 => nrel_speed:
     [3 600 км/ч]
-    (* <- lang_ru;; *);;
+    (* <- lang_ru;; *);
 
 => nrel_weight:
     [7.35 * 10^22 кг]
-    (* <- lang_ru;; *);;
+    (* <- lang_ru;; *);
 
 => nrel_period_of_treatment:
     [27,3 дня]
-    (* <- lang_ru;; *);;
+    (* <- lang_ru;; *);
 
 => nrel_apogee:
     [405 500 км]
-    (* <- lang_ru;; *);;
+    (* <- lang_ru;; *);
 
 => nrel_apogee:
     [363 300 км]
