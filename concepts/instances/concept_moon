@@ -1,5 +1,5 @@
 concept_moon
-<- concept_satellites;
+<- concept_satellite;
 => nrel_main_idtf:
 	   [Луна]
    (* <- lang_ru;; *);
