@@ -1,4 +1,4 @@
-concept_moon
+moon
 <- concept_satellite;
 => nrel_main_idtf:
 	   [Луна]

@@ -19,7 +19,7 @@ subject_domain_of_satellites
         concept_the_galaxy;
     
     -> rrel_not_maximum_studied_object_class:
-        concept_satellites;
+        concept_satellite;
 
     -> rrel_explored_relation:
     nrel_natural_satellites;
