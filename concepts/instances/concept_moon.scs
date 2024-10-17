@@ -3,9 +3,8 @@ moon
 => nrel_main_idtf:
 	   [Луна]
    (* <- lang_ru;; *);
-=> nrel_natural_satellites:
-	  [небесное тело, которое естественным образом находятся в орбите вокруг планет.]
-	  (* <- lang_ru;; *);
+=> nrel_natural_satellite:
+	  concept_earth;
 
 => nrel_height_of_the_orbit: 
         [382,663 км]

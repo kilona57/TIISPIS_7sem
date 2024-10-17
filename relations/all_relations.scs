@@ -9,14 +9,14 @@ nrel_natural_satellite
 => nrel_main_idtf:
    [естественный спутник*]
    (* <- lang_ru;; *);
-=> nrel_first_domain: concept_celestial_body;
-=> nrel_second_domain: concept_celestial_body;
+=> nrel_first_domain: concept_material_object;
+=> nrel_second_domain: concept_material_object;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
-            concept_planet;
-            concept_satellite
+            concept_material_object;
+            concept_material_object
     	};;
    *);
 <- rrel_key_sc_element:
@@ -36,8 +36,8 @@ nrel_natural_satellite
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
-        concept_planet;
-        concept_satellite
+        concept_material_object;
+        concept_material_object
    	 };;
   *);;
 
@@ -58,8 +58,8 @@ nrel_artificial_satellites
    ...
    (*
     	<= nrel_combination: {
-            concept_planet;
-            concept_satellite
+            concept_material_object;
+            concept_material_object
     	};;
    *);
 <- rrel_key_sc_element:
@@ -79,8 +79,8 @@ nrel_artificial_satellites
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
-        concept_planet;
-        concept_satellite
+        concept_material_object;
+        concept_material_object
    	 };;
   *);;
 
@@ -140,13 +140,13 @@ nrel_height_of_the_orbit
    [высота орбиты*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: concept_material_object;
+=> nrel_second_domain: number;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_material_object
+            number
     	};;
    *);
 <- rrel_key_sc_element:
@@ -162,12 +162,12 @@ nrel_height_of_the_orbit
    	       -> rrel_example:
    		    [высота орбиты* - бинарное 
                ориентированное отношение, связывающее 
-               планеты и спутники, которое характеризует растояние от центра планеты до спутника.]
+               спутник и физическую величину, которое характеризует растояние от центра планеты до спутника.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_material_object
+        number
    	 };;
   *);;
 
@@ -183,13 +183,13 @@ nrel_inclination_of_the_orbit
    [угол наклона орбиты*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: concept_material_object;
+=> nrel_second_domain: number;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_material_object
+            number
     	};;
    *);
 <- rrel_key_sc_element:
@@ -205,12 +205,12 @@ nrel_inclination_of_the_orbit
    	       -> rrel_example:
    		    [угол наклона орбиты* - бинарное 
                ориентированное отношение, связывающее 
-               планеты и спутники, которое характеризует угол между плоскостью орбиты спутника и плоскостью экватора планеты.]
+               спутник и физическую величину, которое характеризует угол между плоскостью орбиты спутника и плоскостью экватора планеты.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_material_object
+        number
    	 };;
   *);;
 
@@ -226,13 +226,13 @@ nrel_shape_of_the_orbit
    [форма орбиты*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: number;
+=> nrel_second_domain: concept_orbit;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_material_object
+            concept_orbit
     	};;
    *);
 <- rrel_key_sc_element:
@@ -248,12 +248,12 @@ nrel_shape_of_the_orbit
    	       -> rrel_example:
    		    [форма орбиты* - бинарное 
                ориентированное отношение, связывающее 
-               планеты и спутники, которое характеризует геометрическую конфигурацию траектории спутника вокрег планеты.]
+               спутник и физическую величину, которое характеризует геометрическую конфигурацию траектории спутника вокрег планеты.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_material_object
+        concept_orbit
    	 };;
   *);;
 
@@ -269,13 +269,13 @@ nrel_speed
    [скорость*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: concept_material_object;
+=> nrel_second_domain: number;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_material_object
+            number
     	};;
    *);
 <- rrel_key_sc_element:
@@ -291,12 +291,12 @@ nrel_speed
    	       -> rrel_example:
    		    [скорость* - бинарное 
                ориентированное отношение, связывающее 
-               спутники и орбиту, которое характеризует скорость, с которой спутник движется по своей орбите.]
+               спутник и физическую величину, которое характеризует скорость, с которой спутник движется по своей орбите.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_material_object
+        number
    	 };;
   *);;
 
@@ -312,13 +312,13 @@ nrel_weight
    [масса*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: concept_material_object;
+=> nrel_second_domain: number;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_material_object
+            number
     	};;
    *);
 <- rrel_key_sc_element:
@@ -334,12 +334,12 @@ nrel_weight
    	       -> rrel_example:
    		    [масса* - бинарное 
                ориентированное отношение, связывающее 
-               спутники и материю, которое характеризует количество материи седержащейся в спутнике.]
+               спутник и физическую величину, которое характеризует количество материи седержащейся в спутнике.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_material_object
+        number
    	 };;
   *);;
 
@@ -355,13 +355,13 @@ nrel_period_of_treatment
    [период обращения*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: concept_material_object;
+=> nrel_second_domain: number;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_material_object
+            number
     	};;
    *);
 <- rrel_key_sc_element:
@@ -377,12 +377,12 @@ nrel_period_of_treatment
    	       -> rrel_example:
    		    [период обращения* - бинарное 
                ориентированное отношение, связывающее 
-               спутники и оборот, которое характеризует время, за которое спутник совершает один полный оборот.]
+               спутник и физическую величину, которое характеризует время, за которое спутник совершает один полный оборот.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_material_object
+        number
    	 };;
   *);;
 
@@ -398,13 +398,13 @@ nrel_apogee
    [апогей*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: concept_material_object;
+=> nrel_second_domain: number;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_material_object
+            number
     	};;
    *);
 <- rrel_key_sc_element:
@@ -420,12 +420,12 @@ nrel_apogee
    	       -> rrel_example:
    		    [апогей* - бинарное 
                ориентированное отношение, связывающее 
-               спутник и орбиту, которое характеризует наибольшее расстояние от центра спутника к орбите.]
+               спутник и физическую величину, которое характеризует наибольшее расстояние от центра спутника к орбите.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_material_object
+        number
    	 };;
   *);;
 
@@ -441,13 +441,13 @@ nrel_perigee
    [перигей*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: concept_material_object;
+=> nrel_second_domain: number;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_material_object
+            number
     	};;
    *);
 <- rrel_key_sc_element:
@@ -463,14 +463,60 @@ nrel_perigee
    	       -> rrel_example:
    		    [перигей* - бинарное 
                ориентированное отношение, связывающее 
-               спутник и орбиту, которое характеризует ближайшее расстояние от центра спутника к орбите.]
+               спутник и физическую величину, которое характеризует ближайшее расстояние от центра спутника к орбите.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_material_object
+        number
    	 };;
   *);;
+
+nrel_diameter
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [диаметр*]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_material_object;
+=> nrel_second_domain: number;
+=> nrel_definitional_domain:
+   ...
+   (*
+    	<= nrel_combination: {
+            concept_material_object;
+            number
+    	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	   [Опр. (диаметр*)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [диаметр* - бинарное 
+               ориентированное отношение, связывающее 
+               спутник и физическую величину, которое характеризует расстояние через центр объекта.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+      <= nrel_using_constants: {
+        concept_material_object;
+        number
+   	 };;
+  *);;
+
+
+
 
 nrel_observer_satellites
 <- sc_node_norole_relation;
@@ -484,13 +530,13 @@ nrel_observer_satellites
    [спутники-наблюдатели*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
-=> nrel_second_domain: concept_satellite_categories;
+=> nrel_second_domain: concept_satellite_category;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_material_object;
-            concept_satellite_categories
+            concept_satellite_category
     	};;
    *);
 <- rrel_key_sc_element:
@@ -511,7 +557,7 @@ nrel_observer_satellites
    	    *);;
       <= nrel_using_constants: {
         concept_material_object;
-        concept_satellite_categories
+        concept_satellite_category
    	 };;
   *);;
 
@@ -527,13 +573,13 @@ nrel_relay_satellites
    [спутники-ретрансляторы*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_satellites;
-=> nrel_second_domain: concept_satellite_categories;
+=> nrel_second_domain: concept_satellite_category;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_satellites;
-            concept_satellite_categories
+            concept_satellite_category
     	};;
    *);
 <- rrel_key_sc_element:
@@ -554,7 +600,7 @@ nrel_relay_satellites
    	    *);;
       <= nrel_using_constants: {
         concept_satellites;
-        concept_satellite_categories
+        concept_satellite_category
    	 };;
   *);;
 
@@ -570,13 +616,13 @@ nrel_navigation_satellites
    [спутники-навигаторы*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_satellites;
-=> nrel_second_domain: concept_satellite_categories;
+=> nrel_second_domain: concept_satellite_category;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_satellites;
-            concept_satellite_categories
+            concept_satellite_category
     	};;
    *);
 <- rrel_key_sc_element:
@@ -597,7 +643,7 @@ nrel_navigation_satellites
    	    *);;
       <= nrel_using_constants: {
         concept_satellites;
-        concept_satellite_categories
+        concept_satellite_category
    	 };;
   *);;
 
@@ -613,13 +659,13 @@ nrel_meteorological_satellites
    [спутники-метеорологи*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_satellites;
-=> nrel_second_domain: concept_satellite_categories;
+=> nrel_second_domain: concept_satellite_category;
 => nrel_definitional_domain:
    ...
    (*
     	<= nrel_combination: {
             concept_satellites;
-            concept_satellite_categories
+            concept_satellite_category
     	};;
    *);
 <- rrel_key_sc_element:
@@ -640,7 +686,7 @@ nrel_meteorological_satellites
    	    *);;
       <= nrel_using_constants: {
         concept_satellites;
-        concept_satellite_categories
+        concept_satellite_category
    	 };;
   *);;
 
