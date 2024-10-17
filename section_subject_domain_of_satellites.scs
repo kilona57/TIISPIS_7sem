@@ -29,7 +29,18 @@ subject_domain_of_satellites
 
         nrel_inclusion;
         
-        nrel_physical_quantity;
+        nrel_diameter;
+        nrel_lenght;
+        nrel_wight;    
+        nrel_height;
+        nrel_speed;    
+        nrel_weight;  
+        nrel_period_of_treatment;
+        nrel_height_of_the_orbit;
+        nrel_inclination_of_the_orbit;
+        nrel_shape_of_the_orbit;
+        nrel_apogee;
+        nrel_perigee;
 
         nrel_observer_satellite;
         nrel_relay_satellite;
@@ -98,21 +109,6 @@ section_subject_domain_of_satellites
     concept_satellite_meteorology;
     concept_satellite_geodesy;
 
-    concept_property;
-    concept_diameter;
-    concept_lenght;
-    concept_wight;    
-    concept_height;
-    concept_speed;    
-    concept_weight;  
-    concept_period_of_treatment;
-    concept_height_of_the_orbit;
-    concept_inclination_of_the_orbit;
-    cocept_shape_of_the_orbit;
-    concept_apogee;
-    concept_perigee;
-    number;
-
     concept_energy_source;
     concept_solar_panels;
     concept_nuclear_energy;
@@ -130,7 +126,7 @@ section_subject_domain_of_satellites
     concept_tilted_orbit;
 
     concept_material_object;
-
+    number;
 
     nrel_natural_satellite;
     nrel_artificial_satellite;
@@ -139,7 +135,18 @@ section_subject_domain_of_satellites
 
     nrel_inclusion;
     
-    nrel_physical_quantity;
+    nrel_diameter;
+    nrel_lenght;
+    nrel_wight;    
+    nrel_height;
+    nrel_speed;    
+    nrel_weight;  
+    nrel_period_of_treatment;
+    nrel_height_of_the_orbit;
+    nrel_inclination_of_the_orbit;
+    nrel_shape_of_the_orbit;
+    nrel_apogee;
+    nrel_perigee;
 
     nrel_observer_satellite;
     nrel_relay_satellite;
