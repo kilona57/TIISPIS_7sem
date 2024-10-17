@@ -1,0 +1,26 @@
+concept_material_object=>nrel_inclusion:
+concept_spacecraft;
+concept_celestial_body
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [материальный объект]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (материальный объект)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [материальный объект - физический объект, обладающий вещественной природой и существующий независимо от сознания.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;

@@ -1,0 +1,38 @@
+concept_spacecraft=>nrel_inclusion:
+concept_iradium;
+concept_globalstar;
+concept_inmarstar;
+concept_landsat;
+concept_sentinel;
+concept_modis;
+concept_goes;
+concept_trmm;
+concept_meteosat;
+concept_nasa_aqua;
+concept_terra;
+concept_gps;
+concept_galileo;
+concept_glonass
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [космический аппарат]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (космический аппарат)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [космический аппарат - искусственный объект, созданный человеком и запущенный в космос для выполнения определённых задач.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;

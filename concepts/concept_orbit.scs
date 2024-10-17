@@ -1,0 +1,31 @@
+concept_orbit=>nrel_inclusion:
+concept_circular_orbit;
+concept_elliptical_orbit;
+concept_lightning_orbit;
+
+concept_equatorial_orbit;
+concept_polar_orbit;
+concept_tilted_orbit
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [орбита]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (орбита)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [орбита - путь, по которому движется небесное тело или космический аппарат в пространстве относительно другого объекта.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;

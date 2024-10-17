@@ -1,0 +1,36 @@
+concept_property=>nrel_inclusion:
+concept_diameter;
+concept_lenght;
+concept_wight;    
+concept_height;
+concept_speed;    
+concept_weight;  
+concept_period_of_treatment;
+concept_height_of_the_orbit;
+concept_inclination_of_the_orbit;
+cocept_shape_of_the_orbit;
+concept_apogee;
+concept_perigee
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [свойство]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (свойство)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [свойство - характеристика или признак, который определяет отличительные особенности объекта.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;

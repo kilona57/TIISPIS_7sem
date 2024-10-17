@@ -1,4 +1,4 @@
-concept_satellite_categories=>nrel_inclusion:
+concept_satellite_category=>nrel_inclusion:
 concept_satellite_camunications;
 concept_satellite_tv;
 concept_satellite_navigation;
@@ -9,20 +9,20 @@ concept_satellite_geodesy
 <- sc_node_class;;
 <- class;;
 => nrel_main_idtf:
-   [категории спутников]
+   [категория спутника]
    (* <- lang_ru;; *);;
 
 <- rrel_key_sc_element:
    ...
    (* => nrel_main_idtf:
-   	   [Опр. (категории спутников)]
+   	   [Опр. (категория спутника)]
    	   (* <- lang_ru;; *);;
       <- definition;;
       <= nrel_sc_text_translation:
    	    ...
    	    (*
    	       -> rrel_example:
-   		    [категории спутников - классификация спутников в зависимости от их назначения.]
+   		    [категория спутника - классификация искусственных спутников, основанная на их функциях, назначении и типах орбит.]
    		    (* <- lang_ru;; *);;
    	    *);;
   *);;

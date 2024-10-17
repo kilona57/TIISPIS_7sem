@@ -1,4 +1,4 @@
-concept_satellites=>nrel_inclusion:
+concept_celestial_body=>nrel_inclusion:
 concept_moon;
 concept_phobos;
 concept_deimos;
@@ -20,25 +20,34 @@ concept_charon;
 concept_styx;
 concept_nyx;
 concept_cerberus;
-concept_hydra
+concept_hydra;
+
+concept_earth;
+concept_mars;
+concept_jupiter;
+concept_saturn;
+concept_uranium;
+concept_neptune;
+concept_pluto
+
 (*
 <- sc_node_class;;
 <- class;;
 => nrel_main_idtf:
-   [спутники]
+   [небесное тело]
    (* <- lang_ru;; *);;
 
 <- rrel_key_sc_element:
    ...
    (* => nrel_main_idtf:
-   	   [Опр. (спутники)]
+   	   [Опр. (небесное тело)]
    	   (* <- lang_ru;; *);;
       <- definition;;
       <= nrel_sc_text_translation:
    	    ...
    	    (*
    	       -> rrel_example:
-   		    [спутники - небесные тела или неестественные космические объекты, находящиеся в орбите планет.]
+   		    [небесное тело - естественный объект, находящийся в космосе, который не создан человеком.]
    		    (* <- lang_ru;; *);;
    	    *);;
   *);;
