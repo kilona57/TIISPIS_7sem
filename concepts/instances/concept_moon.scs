@@ -8,8 +8,8 @@ moon
 	  (* <- lang_ru;; *);
 
 => nrel_physical_quantity: 
-    concept_height_of_the_orbit
-    (* -> [384,401 км];; *);
+    [384,401 км]    
+    (* <- concept_height_of_the_orbit;; *);
 
     concept_elliptical_orbit
     (*-> [эллиптическая орбита];; *);
