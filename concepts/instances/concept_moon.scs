@@ -5,18 +5,18 @@ moon
    (* <- lang_ru;; *);
 => nrel_natural_satellites:
 	  [небесное тело, которое естественным образом находятся в орбите вокруг планет.]
-	  (* <- lang_ru;; *);
+	  (* <- lang_ru;; *);;
 
-=> nrel_physical_quantity:
+=> nrel_physical_quantity: 
     concept_height_of_the_orbit
-    (* -> [384,401] *);
+    (* -> [384,401 км] *);
 
     concept_elliptical_orbit
-   (*-> [эллиптическая орбита] *);
+    (*-> [эллиптическая орбита] *);
 
     concept_diameter
-   (* -> [3476,28 км] *);
-    
+    (* -> [3476,28 км] *);
+
     concept_speed
     (* -> [3 600 км/ч] *);
 
