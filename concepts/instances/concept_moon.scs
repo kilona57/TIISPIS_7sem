@@ -5,30 +5,28 @@ moon
    (* <- lang_ru;; *);
 => nrel_natural_satellites:
 	  [небесное тело, которое естественным образом находятся в орбите вокруг планет.]
-	  (* <- lang_ru;; *);
+	  (* <- lang_ru;; *);;
 
-=> nrel_physical_quantity: 
-    concept_height_of_the_orbit
-    (*=>number:
-    [384,401 км];;*);
+=> nrel_height_of_the_orbit: 
+    (*->[384,401 км];;*);
 
-    concept_elliptical_orbit
-    (*-> [эллиптическая орбита];; *);
+=>nrel_shape_of_the_orbit:
+        concept_elliptical_orbit;
 
-    concept_diameter
+=>nrel_diameter:
     (* -> [3476,28 км];; *);
 
-    concept_speed
+=>nrel_speed:
     (* -> [3 600 км/ч];; *);
 
-    concept_weight
+=>nrel_weight:
     (* -> [7.35 * 10^22 кг];; *);
 
-    concept_period_of_treatment
+=>nrel_period_of_treatment:
     (* -> [27,3 дня];; *);
 
-    concept_apogee
+=>nrel_apogee:
     (* -> [405 500 км];; *);
 
-    concept_perigee
+=>nrel_perigee:
     (* -> [363 300 км];; *);;
