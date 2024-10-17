@@ -7,50 +7,25 @@ moon
 	  concept_earth;
 
 => nrel_height_of_the_orbit: 
-        [382,663 км]
-        (* <- lang_ru;; *);
+        [382,663 км];
 
 =>nrel_shape_of_the_orbit:
         concept_elliptical_orbit;
 
 =>nrel_diameter:
-        [3476,28 км]
-        (*=>nrel_main_idtf:
-                [диаметр]
-                (* <- lang_ru;; *);;
-        *);
+        [3476,28 км];
 
 =>nrel_speed:
-        [3 600 км/ч]
-        (*=>nrel_main_idtf:
-                [скорость]
-                (* <- lang_ru;; *);;
-        *);
+        [3 600 км/ч];
 
 =>nrel_weight:
-        [7.35 * 10^22 кг]
-        (*=>nrel_main_idtf:
-                [масса]
-                (* <- lang_ru;; *);;
-        *);
+        [7.35 * 10^22 кг];
 
 =>nrel_period_of_treatment:
-        [27,3 дня]
-        (*=>nrel_main_idtf:
-                [период вращения]
-                (* <- lang_ru;; *);;
-        *);
+        [27,3 дня];
 
 =>nrel_apogee:
-        [405 500 км]
-        (*=>nrel_main_idtf:
-                [апогей]
-                (* <- lang_ru;; *);;
-        *);
+        [405 500 км];
 
 =>nrel_perigee:
-        [363 300 км]
-        (*=>nrel_main_idtf:
-                [перигей]
-                (* <- lang_ru;; *);;
-        *);;
+        [363 300 км];;
