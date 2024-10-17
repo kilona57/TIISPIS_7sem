@@ -9,18 +9,20 @@ moon
 
 => nrel_physical_quantity:
     concept_height_of_the_orbit
-   (* => nrel_main_idtf:
-	        [382,663 км]
-	        (* <- lang_ru;; *);;
-    *);
+   (*=> nrel_main_idtf:
+	    [382,663км]
+	    (* <- lang_ru;; *);;
+    *);    
 
-    concept_inclination_of_the_orbit
+    concept_inclination_of_the_orbit: [5.1 градуса]
     (* => nrel_main_idtf:
-            [5.1 градуса]
+            [наклон орбиты]
             (* <- lang_ru;; *);;
     *);
 
     concept_elliptical_orbit
+        [небесное тело, которое естественным образом находятся в орбите вокруг планет.]
+	(* <- lang_ru;; *);
    (* => nrel_main_idtf:
 	        [эллиптическая орбита]
 	        (* <- lang_ru;; *);;
