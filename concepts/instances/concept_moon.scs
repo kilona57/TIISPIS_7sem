@@ -9,57 +9,25 @@ moon
 
 => nrel_physical_quantity:
     concept_height_of_the_orbit
-   (*=> nrel_main_idtf:
-	    [382,663км]
-	    (* <- lang_ru;; *);;
-    *);    
-
-    concept_inclination_of_the_orbit: [5.1 градуса]
-    (* => nrel_main_idtf:
-            [наклон орбиты]
-            (* <- lang_ru;; *);;
-    *);
+    (* -> [384,401] *);
 
     concept_elliptical_orbit
-        [небесное тело, которое естественным образом находятся в орбите вокруг планет.]
-	(* <- lang_ru;; *);
-   (* => nrel_main_idtf:
-	        [эллиптическая орбита]
-	        (* <- lang_ru;; *);;
-    *);
+   (*-> [эллиптическая орбита] *);
 
     concept_diameter
-   (* => nrel_main_idtf:
-	        [3476,28 км]
-	        (* <- lang_ru;; *);;
-    *);
+   (* -> [3476,28 км] *);
     
     concept_speed
-    (* => nrel_main_idtf:
-            [3 600 км/ч]
-            (* <- lang_ru;; *);;
-    *);
+    (* -> [3 600 км/ч] *);
 
     concept_weight
-    (* => nrel_main_idtf:
-            [7.35 * 10^22 кг]
-            (* <- lang_ru;; *);;
-    *);
+    (* -> [7.35 * 10^22 кг] *);
 
     concept_period_of_treatment
-    (* => nrel_main_idtf:
-            [27,3 дня]
-            (* <- lang_ru;; *);;
-    *);
+    (* -> [27,3 дня] *);
 
     concept_apogee
-    (* => nrel_main_idtf:
-            [405 500 км]
-            (* <- lang_ru;; *);;
-    *);
+    (* -> [405 500 км] *);
 
     concept_perigee
-    (* => nrel_main_idtf:
-        [363 300 км]
-        (* <- lang_ru;; *);;
-    *);;
+    (* -> [363 300 км] *);;
