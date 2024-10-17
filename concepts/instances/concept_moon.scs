@@ -9,17 +9,10 @@ moon
 
 => nrel_height_of_the_orbit: 
         [382,663 км]
-        (*=>nrel_main_idtf:
-                [высота орбиты]
-                (* <- lang_ru;; *);;
-        *);
+        (* <- lang_ru;; *);
 
 =>nrel_shape_of_the_orbit:
-        concept_elliptical_orbit
-        (*=>nrel_main_idtf:
-                [форма орбиты]
-                (* <- lang_ru;; *);;
-        *);
+        concept_elliptical_orbit;
 
 =>nrel_diameter:
         [3476,28 км]
