@@ -21,7 +21,6 @@ concept_styx;
 concept_nyx;
 concept_cerberus;
 concept_hydra;
-
 concept_earth;
 concept_mars;
 concept_jupiter;
@@ -29,7 +28,6 @@ concept_saturn;
 concept_uranium;
 concept_neptune;
 concept_pluto
-
 (*
 <- sc_node_class;;
 <- class;;

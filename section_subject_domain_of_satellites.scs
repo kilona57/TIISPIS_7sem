@@ -27,7 +27,7 @@ subject_domain_of_satellites
 
         nrel_provides_energy;
 
-        inclusion;
+        nrel_inclusion;
         
         nrel_physical_quantity;
 
@@ -137,7 +137,7 @@ section_subject_domain_of_satellites
 
     nrel_provides_energy;
 
-    inclusion;
+    nrel_inclusion;
     
     nrel_physical_quantity;
 

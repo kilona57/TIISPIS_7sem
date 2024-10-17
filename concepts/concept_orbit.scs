@@ -2,7 +2,6 @@ concept_orbit=>nrel_inclusion:
 concept_circular_orbit;
 concept_elliptical_orbit;
 concept_lightning_orbit;
-
 concept_equatorial_orbit;
 concept_polar_orbit;
 concept_tilted_orbit

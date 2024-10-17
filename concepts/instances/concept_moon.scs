@@ -1,0 +1,63 @@
+moon
+<- concept_satellite;
+=> nrel_main_idtf:
+	   [Луна]
+   (* <- lang_ru;; *);
+=> nrel_natural_satellites:
+	  [небесное тело, которое естественным образом находятся в орбите вокруг планет.]
+	  (* <- lang_ru;; *);
+
+=> nrel_physical_quantity:
+    concept_height_of_the_orbit
+   (* => nrel_main_idtf:
+	        [382,663 км]
+	        (* <- lang_ru;; *);;
+    *);
+
+    concept_inclination_of_the_orbit
+    (* => nrel_main_idtf:
+            [5.1 градуса]
+            (* <- lang_ru;; *);;
+    *);
+
+    concept_elliptical_orbit
+   (* => nrel_main_idtf:
+	        [эллиптическая орбита]
+	        (* <- lang_ru;; *);;
+    *);
+
+    concept_diameter
+   (* => nrel_main_idtf:
+	        [3476,28 км]
+	        (* <- lang_ru;; *);;
+    *);
+    
+    concept_speed
+    (* => nrel_main_idtf:
+            [3 600 км/ч]
+            (* <- lang_ru;; *);;
+    *);
+
+    concept_weight
+    (* => nrel_main_idtf:
+            [7.35 * 10^22 кг]
+            (* <- lang_ru;; *);;
+    *);
+
+    concept_period_of_treatment
+    (* => nrel_main_idtf:
+            [27,3 дня]
+            (* <- lang_ru;; *);;
+    *);
+
+    concept_apogee
+    (* => nrel_main_idtf:
+            [405 500 км]
+            (* <- lang_ru;; *);;
+    *);
+
+    concept_perigee
+    (* => nrel_main_idtf:
+        [363 300 км]
+        (* <- lang_ru;; *);;
+    *);;
