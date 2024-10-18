@@ -116,6 +116,7 @@ section_subject_domain_of_satellites
     concept_circular_orbit;
     concept_elliptical_orbit;
     concept_lightning_orbit;
+    concept_synchronous_orbit;
 
     concept_equatorial_orbit;
     concept_polar_orbit;
