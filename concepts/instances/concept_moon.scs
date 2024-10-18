@@ -1,8 +1,8 @@
 moon
 <- concept_celestial_body;
 => nrel_main_idtf:
-	   [Луна]
-   (* <- lang_ru;; *);
+   [Луна]
+   (* <- lang_ru;; *);;
 
 <- rrel_key_sc_element:
    ...
@@ -17,7 +17,7 @@ moon
    		    [Луна - единственный естественный спутник Земли.]
    		    (* <- lang_ru;; *);;
    	    *);;
-  *);
+  *);;
 
 =>nrel_note:
 [Луна имеет шарообразную форму и является пятым по величине естественным спутником в Солнечной системе. 
@@ -29,6 +29,7 @@ moon
 6наиболее распространённая из которых предполагает, что она образовалась в результате гигантского столкновения Земли 
 с другим небесным телом.]
 (* <- lang_ru;; *);;
+
 
 => nrel_natural_satellite:
 	concept_earth;
@@ -64,7 +65,7 @@ phobos
 <- concept_celestial_body;
 => nrel_main_idtf:
 	   [Фобос]
-   (* <- lang_ru;; *);
+   (* <- lang_ru;; *);;
 
 <- rrel_key_sc_element:
    ...
@@ -122,7 +123,7 @@ deimos
 <- concept_celestial_body;
 => nrel_main_idtf:
 	   [Деймос]
-   (* <- lang_ru;; *);
+   (* <- lang_ru;; *);;
 
 <- rrel_key_sc_element:
    ...
@@ -183,7 +184,7 @@ concept_io
 <- concept_celestial_body;
 => nrel_main_idtf:
 	   [Ио]
-   (* <- lang_ru;; *);
+   (* <- lang_ru;; *);;
 
 <- rrel_key_sc_element:
    ...
