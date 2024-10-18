@@ -472,7 +472,7 @@ nrel_perigee
    	 };;
   *);;
 
-nrel_diameter
+nrel_equatorial_diameter
 <- sc_node_norole_relation;
 <- relation;
 <- binary_relation;
@@ -481,7 +481,7 @@ nrel_diameter
 <- asymmetric_relation;
 <- antitransitive_relation;
 => nrel_main_idtf:
-   [диаметр*]
+   [экваториальный диаметр*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
 => nrel_second_domain: number;
@@ -497,16 +497,16 @@ nrel_diameter
    ...
    (*
       => nrel_main_idtf:
-   	   [Опр. (диаметр*)]
+   	   [Опр. (экваториальный диаметр*)]
    	   (* <- lang_ru;; *);;
       <- definition;;
       <= nrel_sc_text_translation:
    	    ...
    	    (*
    	       -> rrel_example:
-   		    [диаметр* - бинарное 
+   		    [экваториальный диаметр* - бинарное 
                ориентированное отношение, связывающее 
-               спутник и физическую величину, которое характеризует расстояние через центр объекта.]
+               спутник и физическую величину, которое характеризует максимальный расстояние, измеряемое вдоль экватора.]
    		    (* <- lang_ru;; *);;
    	    *);;
       <= nrel_using_constants: {
@@ -515,8 +515,48 @@ nrel_diameter
    	 };;
   *);;
 
-
-
+nrel_polar_diameter
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [полярный диаметр*]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_material_object;
+=> nrel_second_domain: number;
+=> nrel_definitional_domain:
+   ...
+   (*
+    	<= nrel_combination: {
+            concept_material_object;
+            number
+    	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+   	   [Опр. (полярный диаметр*)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [полярный диаметр* - бинарное 
+               ориентированное отношение, связывающее 
+               спутник и физическую величину, которое характеризует минимальный расстояние, измеряемое от одного полюса до другого.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+      <= nrel_using_constants: {
+        concept_material_object;
+        number
+   	 };;
+  *);;
 
 nrel_observer_satellites
 <- sc_node_norole_relation;

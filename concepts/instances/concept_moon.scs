@@ -1,18 +1,21 @@
 moon
-<- concept_satellite;
+<- concept_celestial_body;
 => nrel_main_idtf:
 	   [Луна]
    (* <- lang_ru;; *);
 => nrel_natural_satellite:
 	  concept_earth;
 
-=> nrel_height_of_the_orbit: 
-        [382,663 км];
-
 =>nrel_shape_of_the_orbit:
         concept_elliptical_orbit;
 
-=>nrel_diameter:
+=> nrel_height_of_the_orbit: 
+        [382,663 км];
+
+=>nrel_equatorial_diameter:
+        [3471,94 км];
+
+=>nrel_polar_diameter:
         [3476,28 км];
 
 =>nrel_speed:
