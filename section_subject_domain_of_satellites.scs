@@ -51,51 +51,6 @@ section_subject_domain_of_satellites
     subject_domain_of_satellites;
 
     concept_celestial_body;
-    concept_moon;
-    concept_phobos;
-    concept_deimos;
-    concept_io;
-    concept_europe;
-    concept_ganymede;
-    concept_callisto;
-    concept_dione;
-    concept_rhea;
-    concept_titanium;
-    concept_myriad;
-    concept_arielle;
-    concept_umbriel;
-    concept_titania;
-    concept_oberon;
-    concept_triton;
-    concept_charon;
-    concept_styx;
-    concept_nyx;
-    concept_cerberus;
-    concept_hydra;
-
-    concept_spacecraft;
-    concept_iradium;
-    concept_globalstar;
-    concept_inmarstar;
-    concept_landsat;
-    concept_sentinel;
-    concept_modis;
-    concept_goes;
-    concept_trmm;
-    concept_meteosat;
-    concept_nasa_aqua;
-    concept_terra;
-    concept_gps;
-    concept_galileo;
-    concept_glonass;    
-
-    concept_earth;
-    concept_mars;
-    concept_jupiter;
-    concept_saturn;
-    concept_uranium;
-    concept_neptune;
-    concept_pluto;
 
     concept_satellite_category;
     concept_satellite_camunications;
