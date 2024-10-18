@@ -1,29 +1,3 @@
-concept_material_object=> nrel_inclusion:
-concept_celestial_body
-(*
-<- sc_node_class;;
-<- class;;
-=> nrel_main_idtf:
-   [небесное тело]
-   (* <- lang_ru;; *);;
-
-<- rrel_key_sc_element:
-   ...
-   (* => nrel_main_idtf:
-   	   [Опр. (небесное тело)]
-   	   (* <- lang_ru;; *);;
-      <- definition;;
-      <= nrel_sc_text_translation:
-   	    ...
-   	    (*
-   	       -> rrel_example:
-   		    [небесное тело - естественный объект, находящийся в космосе, который не создан человеком.]
-   		    (* <- lang_ru;; *);;
-   	    *);;
-  *);;
-
-*);;
-
 concept_celestial_body=>nrel_inclusion:
 concept_moon
 (*

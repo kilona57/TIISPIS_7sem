@@ -1,6 +1,8 @@
 concept_material_object=>nrel_inclusion:
 concept_spacecraft;
-concept_celestial_body
+concept_celestial_body;
+
+concept_material_object
 (*
 <- sc_node_class;;
 <- class;;
@@ -22,5 +24,54 @@ concept_celestial_body
    		    (* <- lang_ru;; *);;
    	    *);;
   *);;
+*);
 
+concept_spacecraft
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [космический аппарат]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (космический аппарат)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [космический аппарат - аппарат, созданный человеком и запущенный в космос для выполнения различных задач.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+*);
+
+concept_celestial_body
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [небесное тело]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (небесное тело)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [небесное тело - естественный объект, находящийся в космосе, который не создан человеком.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
 *);;
+
+
