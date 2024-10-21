@@ -472,7 +472,7 @@ nrel_perigee
    	 };;
   *);;
 
-nrel_equatorial_diameter
+nrel_pchisic_quelens
 <- sc_node_norole_relation;
 <- relation;
 <- binary_relation;
@@ -481,7 +481,7 @@ nrel_equatorial_diameter
 <- asymmetric_relation;
 <- antitransitive_relation;
 => nrel_main_idtf:
-   [экваториальный диаметр*]
+   [физ величина*]
    (* <- lang_ru;; *);
 => nrel_first_domain: concept_material_object;
 => nrel_second_domain: number;
@@ -497,14 +497,14 @@ nrel_equatorial_diameter
    ...
    (*
       => nrel_main_idtf:
-   	   [Опр. (экваториальный диаметр*)]
+   	   [Опр. (физ величина*)]
    	   (* <- lang_ru;; *);;
       <- definition;;
       <= nrel_sc_text_translation:
    	    ...
    	    (*
    	       -> rrel_example:
-   		    [экваториальный диаметр* - бинарное 
+   		    [физ величина* - бинарное 
                ориентированное отношение, связывающее 
                спутник и физическую величину, которое характеризует максимальный расстояние, измеряемое вдоль экватора.]
    		    (* <- lang_ru;; *);;

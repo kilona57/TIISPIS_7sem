@@ -19,6 +19,13 @@ moon
 с другим небесным телом.]
 (* <- lang_ru;; *);
 
+=> nrel_pchisic_quelens:
+        equatorial_diameter
+        (*
+        =>nrel_note:
+        [3471,94 км]
+        (* <- lang_ru;; *);;
+        *);
 
 => nrel_natural_satellite:
 	concept_earth;
@@ -28,9 +35,6 @@ moon
 
 => nrel_height_of_the_orbit: 
         [382,663 км];
-
-=>nrel_equatorial_diameter:
-        [3471,94 км];
 
 =>nrel_polar_diameter:
         [3476,28 км];
