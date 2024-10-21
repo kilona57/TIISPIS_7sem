@@ -20,7 +20,7 @@ moon
 (* <- lang_ru;; *);
 
 => nrel_pchisic_quelens:
-        equatorial_diameter
+        concept_equatorial_diameter
         (*
         =>nrel_note:
         [3471,94 км]
