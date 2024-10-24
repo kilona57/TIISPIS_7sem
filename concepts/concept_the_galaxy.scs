@@ -1,0 +1,55 @@
+concept_the_galaxy=>nrel_inclusion:
+concept_celestial_body;
+concept_satellite;
+concept_natural_satellite;
+concept_planet;
+
+concept_the_galaxy
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [Галактика]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (Глактика)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [Галактика - огромная гравитационно связанная система, состоящая из звезд, 
+			газовых и пылевых облаков, темной материи и других космических объектов.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+*);
+
+concept_celestial_body
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [небесное тело]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (небесное тело)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [небесное тело - нерукотворные объекты, находящиеся в космосе, включая планеты, звезды, кометы, астероиды и метеориты.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;

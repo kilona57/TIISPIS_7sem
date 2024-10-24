@@ -2,55 +2,166 @@ moon
 <- concept_celestial_body;
 => nrel_main_idtf:
    [Луна]
-   (* <- lang_ru;; *);
+   (* <- lang_ru;; *);;
 
 => nrel_main_idtf:
    [Единственный естественный спутник Земли.]
-   (* <- lang_ru;; *);   	
+   (* <- lang_ru;; *);;
 
-=>nrel_note:
-[Луна имеет шарообразную форму и является пятым по величине естественным спутником в Солнечной системе. 
-Она ненамного меньше Меркурия и вдвое меньше Марса.]
-(* <- lang_ru;; *);
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [1,6 км/ч]
+      (* <- lang_ru;; *);;
 
-=>nrel_note:
-[Существует несколько теорий о происхождении Луны, 
-6наиболее распространённая из которых предполагает, что она образовалась в результате гигантского столкновения Земли 
-с другим небесным телом.]
-(* <- lang_ru;; *);
+   -> rrel_acceleration_of_free_fall:
+      [1,62 м/с²]
+      (* <- lang_ru;; *);;	
 
-=> nrel_pchisic_quelens:
-        concept_equatorial_diameter
-        (*
-        =>nrel_note:
-        [3471,94 км]
-        (* <- lang_ru;; *);;
-        *);
+   -> rrel_surface_area:
+      [38 * 10^6 км²]
+      (* <- lang_ru;; *);;	
 
-=> nrel_natural_satellite:
-	concept_earth;
+   -> rrel_volume:
+      [21,9 × 10^10 км³]
+      (* <- lang_ru;; *);;
 
-=>nrel_shape_of_the_orbit:
-        concept_elliptical_orbit;
+   -> rrel_density:
+      [3340 кг/м³]
+      (* <- lang_ru;; *);;
 
-=> nrel_height_of_the_orbit: 
-        [382,663 км];
+   -> rrel_weight:
+      [7,35 × 10^22 кг]
+      (* <- lang_ru;; *);;	
 
-=>nrel_polar_diameter:
-        [3476,28 км];
+   -> rrel_surface_temperature:
+      [-173°C - +127°C]
+      (* <- lang_ru;; *);;	
 
-=>nrel_speed:
-        [3 681 км/ч];
+   -> rrel_atmospheric_pressure:
+      [10^-12 атм]
+      (* <- lang_ru;; *);;	
+	
+   -> rrel_equatorial_diameter:
+      [3474 км]
+      (* <- lang_ru;; *);;	
 
-=>nrel_weight:
-        [7.35 * 10^22 кг];
+   -> rrel_polar_diameter:
+      [3476 км]
+      (* <- lang_ru;; *);;	
 
-=>nrel_period_of_treatment:
-        [27,3 дня];
+   -> rrel_apogee:
+      [405,500 км]
+      (* <- lang_ru;; *);;	
 
-=>nrel_apogee:
-        [405 500 км];
+   -> rrel_perigee:
+      [363,300 км]
+      (* <- lang_ru;; *);;	
 
-=>nrel_perigee:
-        [363 300 км];;
+   -> rrel_inclination_of_the_orbit:
+      [около 5°]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0549]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [27,3 дня]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [1,022 км/с]
+      (* <- lang_ru;; *);;	
+   *);;
+
+=> nrel_shape_of_the_orbit:
+   concept_elliptical_orbit;	
+
+=> nrel_surface_composition:
+   concept_oxygen;
+   concept_silicon;
+   concept_iron;;
+
+Phobos
+<- concept_celestial_body;
+=> nrel_main_idtf:
+   [Фобос]
+   (* <- lang_ru;; *);;
+
+=> nrel_main_idtf:
+   [Естественный спутник Марса.]
+   (* <- lang_ru;; *);;
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [7 м/с]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [0,0057 м/с²]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_surface_area:
+      [1600 км²]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_volume:
+      [1,4 × 10^4 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [1860 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [1,072 × 10^16 кг]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_surface_temperature:
+      [-100°C - +30°C]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_atmospheric_pressure:
+      [отсутствует]
+      (* <- lang_ru;; *);;	
+	
+   -> rrel_equatorial_diameter:
+      [26,8 км × 22,4 км × 18,4 км]
+      (* <- lang_ru;; *);;		
+
+   -> rrel_apogee:
+      [9400 км]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_perigee:
+      [9400 км]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_inclination_of_the_orbit:
+      [около 1,08°]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0151]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [7 ч 39 мин]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [2,14 км/с]
+      (* <- lang_ru;; *);;	
+   *);;
+
+=> nrel_shape_of_the_orbit:
+   concept_circular_orbit;;
+
+=> nrel_surface_composition:
+   concept_iron;
+   concept_silicon;
+   concept_oxygen;;
 

@@ -1,0 +1,26 @@
+concept_satellite=>nrel_inclusion:
+concept_natural_satellite
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [естественный спутник]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (естественный спутник)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [естественный спутник - небесное тело, которое обращается по определённой траектории (орбите) вокруг другого объекта 
+			в космическом пространстве под действием гравитации.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;

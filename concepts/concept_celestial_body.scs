@@ -1,0 +1,52 @@
+concept_celestial_body=>nrel_inclusion:
+concept_satellite;
+concept_planet
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [планета]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (планета)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [планета - крупное небесное тело, которое обращается вокруг звезды (например, Солнца) 
+			и имеет достаточную массу для того, чтобы принять округлую форму под действием своей гравитации.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);
+
+concept_satellite
+(*
+<- sc_node_class;;
+<- class;;
+=> nrel_main_idtf:
+   [спутник]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (спутник)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [спутник - небесное тело, которое обращается вокруг планеты или другого крупного космического объекта.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);;

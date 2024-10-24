@@ -1,11 +1,12 @@
 concept_orbit=>nrel_inclusion:
 concept_circular_orbit;
 concept_elliptical_orbit;
-concept_lightning_orbit;
-concept_equatorial_orbit;
-concept_polar_orbit;
-concept_tilted_orbit;
-concept_synchronous_orbit
+concept_synchronous_orbit;
+concept_inclined_orbit;
+concept_reverse_orbit;
+concept_eccentric_orbit;
+
+concept_orbit
 (*
 <- sc_node_class;;
 <- class;;
@@ -28,4 +29,160 @@ concept_synchronous_orbit
    	    *);;
   *);;
 
-*);;
+*);
+
+concept_circular_orbit
+(*
+=> nrel_main_idtf:
+   [круговая орбита]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (круговая орбита)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [круговая орбита - порбита, в которой все точки находятся на одинаковом расстоянии от центрального тела.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);
+=> nrel_note:
+   [Круговая орбита может рассматриваться как частный случай эллиптической орбиты при нулевом эксцентриситете. 
+   В круговой орбите линейная скорость, угловая скорость и потенциальная энергия остаются постоянными.]
+   (* <- lang_ru;; *);
+
+concept_elliptical_orbit
+(*
+=> nrel_main_idtf:
+   [эллиптическая орбита]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (эллиптическая орбита)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [эллиптическая орбита - орбита, в которой путь объекта описывает эллипс с двумя фокусами, 
+			один из которых занимает центральное тело.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);
+=> nrel_note:
+   [В отличие от круговой орбиты, расстояние до центрального тела изменяется в зависимости от положения объекта на его траектории.]
+   (* <- lang_ru;; *);
+
+concept_synchronous_orbit
+(*
+=> nrel_main_idtf:
+   [синхронная орбита]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (синхронная орбита)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [синхронная орбита - тип орбиты, при которой спутник имеет период обращения, 
+			равный периоду вращения планеты вокруг своей оси.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);
+=> nrel_note:
+   [Это означает, что спутник всегда остаётся над одной и той же точкой на поверхности планеты.]
+   (* <- lang_ru;; *);
+
+concept_inclined_orbit
+(*
+=> nrel_main_idtf:
+   [наклонная орбита]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (наклонная орбита)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [наклонная орбита - орбита, в которой плоскость движения спутника наклонена относительно плоскости экватора планеты.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);
+=> nrel_note:
+   [Наклонение может варьироваться от 0° (экваториальная орбита) до 90° (полярная орбита).]
+   (* <- lang_ru;; *);
+
+concept_reverse_orbit
+(*
+=> nrel_main_idtf:
+   [обртаная орбита]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (обртаная орбита)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [обртаная орбита - тип орбиты, при которой спутник движется в направлении, противоположном вращению планеты.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);
+
+concept_eccentric_orbit
+(*
+=> nrel_main_idtf:
+   [эксцентричная орбита]
+   (* <- lang_ru;; *);;
+
+<- rrel_key_sc_element:
+   ...
+   (* => nrel_main_idtf:
+   	   [Опр. (эксцентричная орбита)]
+   	   (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	       -> rrel_example:
+   		    [эксцентричная орбита - форма орбиты, где эксцентриситет больше нуля, что приводит к вытянутой форме эллипса.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+  *);;
+
+*);
+=> nrel_note:
+   [При этом расстояние до центрального тела значительно варьируется в зависимости от положения объекта на его траектории.]
+   (* <- lang_ru;; *);;

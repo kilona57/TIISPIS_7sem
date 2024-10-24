@@ -22,83 +22,85 @@ subject_domain_of_satellites
         concept_satellite;
 
     -> rrel_explored_relation:
-        nrel_natural_satellite;
-        nrel_artificial_satellite;
-
-        nrel_provides_energy;
-
-        nrel_inclusion;
-
-        nrel_height_of_the_orbit;
-        nrel_inclination_of_the_orbit;
+        nrel_physical_quantity;
+        rrel_equatorial_rotation_speed;
+        rrel_acceleration_of_free_fall;
+        rrel_surface_area;
+        rrel_volume;
+        rrel_density;
+        rrel_weight;
+        rrel_surface_temperature;
+        rrel_atmospheric_pressure;
+        nrel_surface_composition;
+        nrel_atomic_number;
+        nrel_chemical_symbol;
+        nrel_chemical_formula;
+        rrel_equatorial_diameter;
+        rrel_polar_diameter;
+        rrel_apogee;
+        rrel_perigee;
         nrel_shape_of_the_orbit;
-        nrel_speed;  
-        nrel_weight;
-        nrel_period_of_treatment;
-        nrel_apogee;
-        nrel_perigee; 
-        nrel_polar_diameter;  
-        nrel_observer_satellite;
-        nrel_relay_satellite;
-        nrel_navigation_satellite;
-        nrel_meteorological_satellite;;
+        rrel_inclination_of_the_orbit;
+        rrel_eccentricity_of_the_orbit;
+        rrel_orbital_period;
+        rrel_spee_of_orbital_motion;;
 *];;
 
 section_subject_domain_of_satellites
 -> rrel_key_sc_element:
     subject_domain_of_satellites;
 
+    concept_the_galaxy;
     concept_celestial_body;
+    concept_satellite;
+    concept_natural_satellite;
+    concept_planet;
 
-    concept_satellite_category;
-    concept_satellite_camunications;
-    concept_satellite_tv;
-    concept_satellite_navigation;
-    concept_satellite_internet;
-    concept_satellite_meteorology;
-    concept_satellite_geodesy;
-
-    concept_energy_source;
-    concept_solar_panels;
-    concept_nuclear_energy;
-    concept_batteries;
-    concept_fuel_cells;
-    concept_kinetic_sources;
-
-    concept_equatorial_diameter;
     concept_orbit;
-    concept_circular_orbit;
-    concept_elliptical_orbit;
-    concept_lightning_orbit;
-    concept_synchronous_orbit;
+    concept_circular_orbit; 
+    concept_elliptical_orbit; 
+    concept_synchronous_orbit; 
+    concept_inclined_orbit; 
+    concept_reverse_orbit; 
+    concept_eccentric_orbit;
 
-    concept_equatorial_orbit;
-    concept_polar_orbit;
-    concept_tilted_orbit;
+    concept_chemical; 
+    concept_hydrogen; 
+    concept_helium; 
+    concept_oxygen; 
+    concept_nitrogen; 
+    concept_methane; 
+    concept_carbon_monoxide; 
+    concept_sulfur; 
+    concept_sulfur_dioxide;
+    concept_methane_hydrates;
+    concept_water_ice;
+    concept_ethan; 
+    concept_phosphorus; 
+    concept_silicon; 
+    concept_iron;
 
-    concept_material_object;
     number;
 
-    nrel_natural_satellite;
-    nrel_artificial_satellite;
-
-    nrel_provides_energy;
-
-    nrel_pchisic_quelens;
-
-    nrel_inclusion;
-
-    nrel_height_of_the_orbit;
-    nrel_inclination_of_the_orbit;
-    nrel_shape_of_the_orbit;
-    nrel_speed;  
-    nrel_weight;
-    nrel_period_of_treatment;
-    nrel_apogee;
-    nrel_perigee; 
-    nrel_polar_diameter;  
-    
-    nrel_observer_satellite;
-    nrel_relay_satellite;
-    nrel_navigation_satellite;
-    nrel_meteorological_satellite;;
+    nrel_physical_quantity; 
+    rrel_equatorial_rotation_speed;
+    rrel_acceleration_of_free_fall;
+    rrel_surface_area;
+    rrel_volume;
+    rrel_density;
+    rrel_weight;
+    rrel_surface_temperature;  
+    rrel_atmospheric_pressure; 
+    nrel_surface_composition;
+    nrel_atomic_number;
+    nrel_chemical_symbol;
+    nrel_chemical_formula;
+    rrel_equatorial_diameter;
+    rrel_polar_diameter; 
+    rrel_apogee; 
+    rrel_perigee;
+    nrel_shape_of_the_orbit; 
+    rrel_inclination_of_the_orbit; 
+    rrel_eccentricity_of_the_orbit; 
+    rrel_orbital_period; 
+    rrel_spee_of_orbital_motion;;  
