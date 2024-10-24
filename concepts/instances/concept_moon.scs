@@ -1,12 +1,12 @@
 moon
-<- concept_celestial_body;
+<- concept_satellite;
 => nrel_main_idtf:
    [Луна]
-   (* <- lang_ru;; *);;
+   (* <- lang_ru;; *);
 
 => nrel_main_idtf:
    [Единственный естественный спутник Земли.]
-   (* <- lang_ru;; *);;
+   (* <- lang_ru;; *);
 
 => nrel_physical_quantity:
    ...
@@ -17,11 +17,11 @@ moon
 
    -> rrel_acceleration_of_free_fall:
       [1,62 м/с²]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_surface_area:
       [38 * 10^6 км²]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_volume:
       [21,9 × 10^10 км³]
@@ -33,35 +33,35 @@ moon
 
    -> rrel_weight:
       [7,35 × 10^22 кг]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_surface_temperature:
       [-173°C - +127°C]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_atmospheric_pressure:
       [10^-12 атм]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 	
    -> rrel_equatorial_diameter:
       [3474 км]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_polar_diameter:
       [3476 км]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_apogee:
       [405,500 км]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_perigee:
       [363,300 км]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_inclination_of_the_orbit:
       [около 5°]
-      (* <- lang_ru;; *);;	
+      (* <- lang_ru;; *);;
 
    -> rrel_eccentricity_of_the_orbit: 
       [0.0549]
@@ -73,11 +73,11 @@ moon
 
    -> rrel_spee_of_orbital_motion:
       [1,022 км/с]
-      (* <- lang_ru;; *);;	
-   *);;
+      (* <- lang_ru;; *);;
+   *);
 
 => nrel_shape_of_the_orbit:
-   concept_elliptical_orbit;	
+   concept_elliptical_orbit;;	
 
 => nrel_surface_composition:
    concept_oxygen;
@@ -88,11 +88,12 @@ Phobos
 <- concept_celestial_body;
 => nrel_main_idtf:
    [Фобос]
-   (* <- lang_ru;; *);;
+   (* <- lang_ru;; *);
 
 => nrel_main_idtf:
    [Естественный спутник Марса.]
-   (* <- lang_ru;; *);;
+   (* <- lang_ru;; *);
+
 => nrel_physical_quantity:
    ...
    (*
