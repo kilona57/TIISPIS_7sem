@@ -77,7 +77,7 @@ moon
    *);
 
 => nrel_shape_of_the_orbit:
-   concept_elliptical_orbit;;	
+   concept_elliptical_orbit;
 
 => nrel_surface_composition:
    concept_oxygen;
@@ -159,7 +159,7 @@ Phobos
    *);;
 
 => nrel_shape_of_the_orbit:
-   concept_circular_orbit;;
+   concept_circular_orbit;
 
 => nrel_surface_composition:
    concept_iron;
