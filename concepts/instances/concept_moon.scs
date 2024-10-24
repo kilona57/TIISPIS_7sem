@@ -86,10 +86,6 @@ Phobos
    [Фобос]
    (* <- lang_ru;; *);
 
-=> nrel_main_idtf:
-   [Естественный спутник Марса.]
-   (* <- lang_ru;; *);
-
 => nrel_physical_quantity:
    ...
    (*
