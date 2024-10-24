@@ -156,7 +156,7 @@ Phobos
    -> rrel_spee_of_orbital_motion:
       [2,14 км/с]
       (* <- lang_ru;; *);;	
-   *);;
+   *);
 
 => nrel_shape_of_the_orbit:
    concept_circular_orbit;
