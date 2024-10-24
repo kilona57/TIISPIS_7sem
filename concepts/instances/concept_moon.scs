@@ -2,15 +2,10 @@ moon
 <- concept_satellite;
 => nrel_main_idtf:
    [Луна]
-   (* <- lang_ru;; *);
-
-=> nrel_main_idtf:
-   [Единственный естественный спутник Земли.]
-   (* <- lang_ru;; *);
+   (* <- lang_ru;; *);;
 
 => nrel_physical_quantity:
-   ...
-   (*
+   {
    -> rrel_equatorial_rotation_speed:
       [1,6 км/ч]
       (* <- lang_ru;; *);;
@@ -74,7 +69,7 @@ moon
    -> rrel_spee_of_orbital_motion:
       [1,022 км/с]
       (* <- lang_ru;; *);;
-   *);
+   };;
 
 => nrel_shape_of_the_orbit:
    concept_elliptical_orbit;
