@@ -1,8 +1,89 @@
+earth
+<- concept_celestial_body;
+<- concept_planet;
+=> nrel_main_idtf:
+   [Земля]
+   (* <- lang_ru;; *);
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [1670 км/ч]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [9,81 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [510,1 × 10^6 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [1,08321 × 10^12 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [5510 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [5,972 × 10^24 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [+15 °C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [1013 мбар]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [12,742 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [12,714 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 23,5°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0167]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [365,25 дней]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [29,78 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_elliptical_orbit;
+
+=> nrel_surface_composition:
+   concept_oxygen;
+   concept_hydrogen;
+   concept_silicon;
+   concept_iron;;
+
 moon
+<- concept_celestial_body;
 <- concept_satellite;
+<- concept_natural_satellite;
 => nrel_main_idtf:
    [Луна]
    (* <- lang_ru;; *);
+
+=> nrel_is_a_satellite_of:
+   earth;
 
 => nrel_physical_quantity:
    ...
@@ -80,11 +161,89 @@ moon
    concept_silicon;
    concept_iron;;
 
-Phobos
+mars
 <- concept_celestial_body;
+<- concept_planet;
+=> nrel_main_idtf:
+   [Марс]
+   (* <- lang_ru;; *);
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [241 м/с]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [3,71 м/с²]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_surface_area:
+      [144,8 × 10^6 км²]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_volume:
+      [163 × 10^9 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [3930  кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [6,42 × 10^23 кг]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_surface_temperature:
+      [-125°C - +20°C]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_atmospheric_pressure:
+      [0,006 атм]
+      (* <- lang_ru;; *);;	
+	
+   -> rrel_equatorial_diameter:
+      [6,779 км]
+      (* <- lang_ru;; *);;		
+
+   -> rrel_polar_diameter:
+      [6,752 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 1,85°]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0934]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [687 дней]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [24,077 км/с]
+      (* <- lang_ru;; *);;	
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_elliptical_orbit;
+
+=> nrel_surface_composition:
+   concept_silicon;
+   concept_iron;;
+
+phobos
+<- concept_celestial_body;
+<- concept_satellite;
+<- concept_natural_satellite;
 => nrel_main_idtf:
    [Фобос]
    (* <- lang_ru;; *);
+
+=> nrel_is_a_satellite_of:
+   mars;
 
 => nrel_physical_quantity:
    ...
@@ -158,3 +317,740 @@ Phobos
    concept_silicon;
    concept_oxygen;;
 
+deimos
+<- concept_celestial_body;
+<- concept_satellite;
+<- concept_natural_satellite;
+=> nrel_main_idtf:
+   [Деймос]
+   (* <- lang_ru;; *);
+
+=> nrel_is_a_satellite_of:
+   mars;
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_acceleration_of_free_fall:
+      [0,0037 м/с²]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_surface_area:
+      [6,9 км²]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_volume:
+      [1,4 × 10^4 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [1470 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [1,48 × 10^15 кг]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_surface_temperature:
+      [-112°C - +27°C]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_atmospheric_pressure:
+      [отсутствует]
+      (* <- lang_ru;; *);;	
+	
+   -> rrel_equatorial_diameter:
+      [12,4 км]
+      (* <- lang_ru;; *);;		
+
+   -> rrel_polar_diameter:
+      [10,6 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_apogee:
+      [23,460 км]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_perigee:
+      [23,460 км]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_inclination_of_the_orbit:
+      [около 1,8°]
+      (* <- lang_ru;; *);;	
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0002]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [30,3 ч]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [1,35 км/с]
+      (* <- lang_ru;; *);;	
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_circular_orbit;
+
+=> nrel_surface_composition:
+   concept_carbon_monoxide;
+   concept_oxygen;
+   concept_silicon;
+   concept_iron;;
+
+jupiter
+<- concept_celestial_body;
+<- concept_planet;
+=> nrel_main_idtf:
+   [Юпитер]
+   (* <- lang_ru;; *);
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [45,7 км/ч]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [24,79 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [61,42 * 10^6 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [1,43 × 10^15 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [1330 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [1,898 × 10^27 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [-145°C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [0,5 атм]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [139,882 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [139,822 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 1,31°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0489]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [11,86 года]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [13,07 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_elliptical_orbit;
+
+=> nrel_surface_composition:
+   concept_hydrogen;
+   concept_helium;
+   concept_methane;;
+
+io
+<- concept_celestial_body;
+<- concept_satellite;
+<- concept_natural_satellite;
+=> nrel_main_idtf:
+   [Ио]
+   (* <- lang_ru;; *);
+
+=> nrel_is_a_satellite_of:
+   jupiter;
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [17,34 км/ч]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [1,8 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [42,5 * 10^6 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [1,5 × 10^10 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [3530 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [8,93 × 10^22 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [-143°C - +20°C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [0,001 атм]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [3,643 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [3,643 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_apogee:
+      [423,000 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_perigee:
+      [421,700 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 0,04°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0042]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [42,5 ч]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [17,334 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_circular_orbit;
+
+=> nrel_surface_composition:
+   concept_sulfur;
+   concept_sulfur_dioxide;;
+
+europe
+<- concept_celestial_body;
+<- concept_satellite;
+<- concept_natural_satellite;
+=> nrel_main_idtf:
+   [Европа]
+   (* <- lang_ru;; *);
+
+=> nrel_is_a_satellite_of:
+   jupiter;
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [18,5 км/ч]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [1,314 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [30,3 * 10^6 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [1,94 × 10^10 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [3010 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [4,8 × 10^22 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [-160°C - -220°C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [отсутствует]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [3,121 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [3,121 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_apogee:
+      [6718 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_perigee:
+      [6709  км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 0,1°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.009]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [3,55 дня]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [13,74 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_circular_orbit;
+
+=> nrel_surface_composition:
+   concept_water_ice;
+   concept_carbon_monoxide;;
+
+saturn
+<- concept_celestial_body;
+<- concept_planet;
+=> nrel_main_idtf:
+   [Сатурн]
+   (* <- lang_ru;; *);
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [9,87 км/ч]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [10,44 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [4,272 * 10^10 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [8,271 × 10^14 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [687 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [5,6846 × 10^26 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [-170°C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [1 атм]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [108,536 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [108,728 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 2,49°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0565]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [29,5 лет]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [9,69 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_elliptical_orbit;
+
+=> nrel_surface_composition:
+   concept_hydrogen;
+   concept_helium;
+   concept_methane;;
+
+rea
+<- concept_celestial_body;
+<- concept_satellite;
+<- concept_natural_satellite;
+=> nrel_main_idtf:
+   [Реа]
+   (* <- lang_ru;; *);
+
+=> nrel_is_a_satellite_of:
+   saturn;
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [18,5 км/ч]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [0,27 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [15,4 * 10^6 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [1,53 × 10^10 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [1230 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [4,5 × 10^21 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [-220°C - -150°C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [отсутствует]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [1,527 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [1,527 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_apogee:
+      [5270 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_perigee:
+      [5250 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 0°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0018]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [4,52 дня]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [13,5 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_circular_orbit;
+
+=> nrel_surface_composition:
+   concept_water_ice;
+   concept_carbon_monoxide;;
+
+pluto
+<- concept_celestial_body;
+<- concept_planet;
+=> nrel_main_idtf:
+   [Плутон]
+   (* <- lang_ru;; *);
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [0,5 км/с]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [0,62 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [1,77 * 10^7 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [1,66 × 10^10 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [1860 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [1,31 × 10^22 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [-223°C - -233°C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [0,001 атм]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [2,377 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [2,370 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 17°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0248]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [248 лет]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [4,74 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_elliptical_orbit;
+
+=> nrel_surface_composition:
+   concept_methane;
+   concept_water_ice;;
+
+charon
+<- concept_celestial_body;
+<- concept_satellite;
+<- concept_natural_satellite;
+=> nrel_main_idtf:
+   [Харон]
+   (* <- lang_ru;; *);
+
+=> nrel_is_a_satellite_of:
+   pluto;
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [0,58 км/с]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [0,62 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [1,7 * 10^6 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [1,5 × 10^10 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [1650 кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [1,52 × 10^21 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [-220°C - -240°C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [отсутствует]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [1,212 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [1,212 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_apogee:
+      [19,570 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_perigee:
+      [19,570 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 0°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0002]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [6,39 дней]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [0,5 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_circular_orbit;
+
+=> nrel_surface_composition:
+   concept_water_ice;
+   concept_carbon_monoxide;;
+
+cerberus
+<- concept_celestial_body;
+<- concept_satellite;
+<- concept_natural_satellite;
+=> nrel_main_idtf:
+   [Цербер]
+   (* <- lang_ru;; *);
+
+=> nrel_is_a_satellite_of:
+   pluto;
+
+=> nrel_physical_quantity:
+   ...
+   (*
+   -> rrel_equatorial_rotation_speed:
+      [0,58 км/с]
+      (* <- lang_ru;; *);;
+
+   -> rrel_acceleration_of_free_fall:
+      [0,27 м/с²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_area:
+      [1,5 * 10^6 км²]
+      (* <- lang_ru;; *);;
+
+   -> rrel_volume:
+      [1,2 × 10^10 км³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_density:
+      [1500кг/м³]
+      (* <- lang_ru;; *);;
+
+   -> rrel_weight:
+      [1,4 × 10^21 кг]
+      (* <- lang_ru;; *);;
+
+   -> rrel_surface_temperature:
+      [-220°C - -240°C]
+      (* <- lang_ru;; *);;
+
+   -> rrel_atmospheric_pressure:
+      [отсутствует]
+      (* <- lang_ru;; *);;
+	
+   -> rrel_equatorial_diameter:
+      [1,14 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_polar_diameter:
+      [1,14 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_apogee:
+      [19,570 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_perigee:
+      [19,570 км]
+      (* <- lang_ru;; *);;
+
+   -> rrel_inclination_of_the_orbit:
+      [около 0°]
+      (* <- lang_ru;; *);;
+
+   -> rrel_eccentricity_of_the_orbit: 
+      [0.0002]
+      (* <- lang_ru;; *);;
+
+   -> rrel_orbital_period:
+      [9,5 дней]
+      (* <- lang_ru;; *);;
+
+   -> rrel_spee_of_orbital_motion:
+      [0,4 км/с]
+      (* <- lang_ru;; *);;
+   *);
+
+=> nrel_shape_of_the_orbit:
+   concept_circular_orbit;
+
+=> nrel_surface_composition:
+   concept_water_ice;
+   concept_carbon_monoxide;;
